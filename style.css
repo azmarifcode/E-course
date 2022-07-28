@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .col-flex {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .img-flex {
+        width: 80%;
+        height: auto;
+    }
+    .img-flex-div {
+        display: flex;
+        justify-content: center;
+    }
+}
