@@ -1,4 +1,5 @@
 @media only screen and (max-width: 600px) {
+    /* Discover Our Popular Courses */
     .col-flex {
         display: flex;
         flex-direction: column;
@@ -11,5 +12,9 @@
     .img-flex-div {
         display: flex;
         justify-content: center;
+    }
+    /* ready to join */
+    .ready {
+        text-align: center;
     }
 }

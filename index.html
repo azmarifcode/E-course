@@ -10,9 +10,11 @@
     <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- css stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- header -->
     <header class="mb-5 mt-3">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
@@ -90,6 +92,7 @@
             </div>
         </div>
     </header>
+    <!-- Discover Our Popular Courses -->
     <main class="container">
         <div class="text-center">
             <h1>Discover Our Popular <br> Courses</h1>
@@ -106,7 +109,7 @@
                         <div class="col-lg-7 col-md-7 col-sm-12 mt-4">
                                 <h5 class="text-center">Fundamental Of UI/UX Design</h5>
                                 <p class="text-center">Some quick example text to build on the card title and make up the bulk of the card</p>
-                            <h6 class="text-primary text-center">Price: 20$</h6>
+                            <h6 class="text-primary text-center">Price: 20$</h6>  
                         </div>
                     </div>
                 </div>
@@ -176,57 +179,62 @@
             <button type="button" class="btn btn-primary">See More Courses</button>
         </div>
     </main>
-    <section class="container bg-primary rounded d-flex justify-content-around align-items-center pt-4"
-        style="height: 200px;">
-        <div class="text-white">
-            <h1>Ready to join?</h1>
-            <p>eLearning has many benefits and holds great promise for the <br> future of training and education.</p>
-        </div>
-        <div>
-            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Register Now
-            </button>
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title m-auto" id="staticBackdropLabel">Please fill up this form</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="" class="w-75 d-flex flex-column m-auto">
-                                <div class="form-floating mb-3">
-                                    <input type="name" class="form-control" id="floatingName"
-                                        placeholder="A. Z. M. Arif">
-                                    <label for="floatingName">Name</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="floatingEmail"
-                                        placeholder="name@example.com">
-                                    <label for="floatingInput">Email address</label>
-                                </div>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text">@</span>
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="floatingInputGroup1"
-                                            placeholder="Username">
-                                        <label for="floatingInputGroup1">Username</label>
+    <!-- ready to join -->
+    <section class="container bg-primary rounded p-5">
+        <div class="row m-auto justify-content-center align-items-center">
+            <div class="ready d-flex justify-content-center text-white col-lg-8 col-md-12 col-sm-12 ps-5">
+                <div>
+                    <h1>Ready to join?</h1>
+                    <p>eLearning has many benefits and holds great promise for the <br> future of training and education.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center col-lg-4 col-md-12 col-sm-12 ps-5">
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Register Now
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title m-auto" id="staticBackdropLabel">Please fill up this form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" class="w-75 d-flex flex-column m-auto">
+                                    <div class="form-floating mb-3">
+                                        <input type="name" class="form-control" id="floatingName"
+                                            placeholder="A. Z. M. Arif">
+                                        <label for="floatingName">Name</label>
                                     </div>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="password" class="form-control" id="floatingPassword"
-                                        placeholder="Password">
-                                    <label for="floatingPassword">Password</label>
-                                </div>
-                                <button class="btn btn-primary w-25 m-auto">Submit</button>
-                            </form>
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingEmail"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">@</span>
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="floatingInputGroup1"
+                                                placeholder="Username">
+                                            <label for="floatingInputGroup1">Username</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="floatingPassword"
+                                            placeholder="Password">
+                                        <label for="floatingPassword">Password</label>
+                                    </div>
+                                    <button class="btn btn-primary w-25 m-auto">Submit</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Frequently Asked Questions -->
     <section class="my-5 mx-3" id="faq">
         <h2 class="py-4 text-center fs-1">Frequently Asked Questions</h2>
         <p class="text-center mb-5">It is a long established fact that a reader will be distracted by the readable <br>
@@ -301,11 +309,12 @@
             </div>
         </div>
     </section>
+    <!-- Trusted by over 800+ companies -->
     <section class="d-none d-lg-block">
         <div class="text-center mt-5">
             <h1>Trusted by over 800+ companies</h1>
         </div>
-        <div class=" mt-5 mb-5 d-flex d-none d-md-none d-lg-block justify-content-center container-fluid">
+        <div class="mt-5 mb-5 d-flex d-none d-md-none d-lg-block justify-content-center container-fluid">
             <img class="img-fluid ms-5" src="images/company/company-1.png" alt="">
             <img class="img-fluid ms-5" src="images/company/company-2.png" alt="">
             <img class="img-fluid ms-5" src="images/company/company-3.png" alt="">
@@ -314,6 +323,7 @@
             <img class="img-fluid ms-5" src="images/company/company-6.png" alt="">
         </div>
     </section>
+    <!-- footer -->
     <footer class="text-white text-opacity-50 text-center bg-black py-5">
         <h1 class="mb-3">E-course</h1>
         <p>Shahbazpur, Jamalpur<br>
@@ -327,6 +337,7 @@
             <a class="ms-3" target="_blank" href="https://www.facebook.com/"><i class="h2 fab fa-facebook"></i></a>
         </div>
     </footer>
+    <!-- js script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
